@@ -1,0 +1,22 @@
+---
+标题：将内容复制到剪贴板
+类别：字符串
+---
+
+**JavaScript 版本**
+
+```js
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+```
+
+**打字稿版本**
+
+```js
+const copyToClipboard = (text:any) => navigator.clipboard.writeText(text);
+```
+
+**例子**
+
+```js
+复制到剪贴板（'12312）；
+```
